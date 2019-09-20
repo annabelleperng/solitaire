@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=rank\ suit\ isFaceUp
+comment0.target=Card(int,\ java.lang.String,\ boolean)
+comment0.text=\n\ Constructor\ for\ objects\ of\ Card\ class.\n\ \n\ @param\ \ \ rank\ \ \ \ \ \ \ \ the\ card's\ rank,\ where\ 1\ \u2264\ rank\ \u2264\ 13\n\ @param\ \ \ suit\ \ \ \ \ \ \ \ the\ card's\ suit;\ "c"\ for\ clubs,\ "d"\ for\ diamonds,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "h"\ for\ hearts,\ "s"\ for\ spades\n\ @param\ \ \ isFaceUp\ \ \ \ true\ if\ the\ card\ is\ initially\ turned\ face\ up\n
+comment1.params=
+comment1.target=int\ getRank()
+comment1.text=\n\ Returns\ the\ numerical\ rank\ of\ the\ card,\ where\ 1\ \u2264\ rank\ \u2264\ 13.\ 1\ denotes\n\ an\ Ace,\ while\ 11,\ 12,\ and\ 13\ denote\ Jacks,\ Queens,\ and\ Kings,\ respectively.\n\ \n\ @return\ \ an\ integer\ denoting\ the\ rank\ of\ the\ card\n
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment2.text=\n\ Returns\ the\ suit\ of\ the\ card\ expressed\ in\ a\ single\ character\ string\ \u2013\n\ "c"\ for\ clubs,\ "d"\ for\ diamonds,\ "h"\ for\ hearts,\ "s"\ for\ spades.\n\ \n\ @return\ \ the\ suit\ of\ the\ card\n
+comment3.params=
+comment3.target=boolean\ isRed()
+comment3.text=\n\ Determines\ whether\ the\ card\ is\ red.\n\ \n\ @return\ \ true\ if\ the\ card\ belongs\ to\ the\ heart\ or\ diamond\ suits;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment4.params=
+comment4.target=boolean\ isFaceUp()
+comment4.text=\n\ Determines\ whether\ the\ card\ is\ face\ up\ in\ the\ pile.\n\ \n\ @return\ \ true\ if\ the\ card\ is\ turned\ face\ up;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment5.params=
+comment5.target=void\ turnUp()
+comment5.text=\n\ Turns\ a\ card\ face\ up\ if\ it\ is\ facing\ down.\n
+comment6.params=
+comment6.target=void\ turnDown()
+comment6.text=\n\ Turns\ a\ card\ face\ down\ if\ it\ is\ facing\ up.\n
+comment7.params=
+comment7.target=java.lang.String\ getFileName()
+comment7.text=\n\ Retrieves\ the\ file\ name\ of\ the\ card.\ If\ the\ card\ is\ facing\ up,\n\ the\ file\ name\ corresponds\ to\ a\ visual\ representation\ showing\ the\ card's\n\ suit\ and\ rank.\ Otherwise,\ the\ file\ path\ to\ the\ back\ side\ of\ the\ \n\ card\ is\ returned.\n\ \n\ @return\ \ a\ file\ path\ to\ the\ image\ which\ represents\ the\ card\ in\ its\ current\ state\n
+numComments=8
